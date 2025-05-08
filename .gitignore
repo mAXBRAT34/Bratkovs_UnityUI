@@ -1,0 +1,8 @@
+# Unity-specific files to ignore
+/Library/
+/Temp/
+/Logs/
+/obj/
+/bin/
+/Packages/
+/ProjectSettings/
