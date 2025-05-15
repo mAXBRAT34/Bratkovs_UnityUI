@@ -6,19 +6,21 @@ public class ChooseChar : MonoBehaviour
 {
     public TMP_Dropdown characterDropdown;
     public Image characterImage;
-    public Sprite[] characterSprites; // Массив изображений персонажей
+    public Sprite[] robloxSprites; 
 
     private void Start()
     {
-        // При изменении выбора вызываем `ChangeCharacter`
         characterDropdown.onValueChanged.AddListener(ChangeCharacter);
     }
 
     public void ChangeCharacter(int index)
     {
-        if (index >= 0 && index < characterSprites.Length)
+        if (index >= 0 && index < robloxSprites.Length)
         {
-            characterImage.sprite = characterSprites[index]; // Меняем изображение
+            characterImage.sprite = robloxSprites[index]; 
+            characterImage.gameObject.SetActive(true); 
         }
+
     }
 }
+

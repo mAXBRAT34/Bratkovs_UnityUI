@@ -5,6 +5,6 @@ public class SceneController : MonoBehaviour
 {
     public void LoadGameScene()
     {
-        SceneManager.LoadScene("SampleScene"); // Переключает сцену
+        SceneManager.LoadScene("SampleScene"); 
     }
 }
