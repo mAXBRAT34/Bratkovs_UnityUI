@@ -4,6 +4,8 @@ using UnityEngine.UI;
 
 public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerClickHandler
 {
+    public bool isDraggable = true;
+
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
     private Image itemImage;
@@ -14,9 +16,6 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
         rectTransform = GetComponent<RectTransform>();
         canvasGroup = GetComponent<CanvasGroup>();
         itemImage = GetComponent<Image>();
-
-        if (canvasGroup == null) Debug.LogWarning("CanvasGroup nav!");
-        if (itemImage == null) Debug.LogWarning("Image nav!");
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -28,10 +27,28 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
 
     public void OnDrag(PointerEventData eventData)
     {
-        RectTransformUtility.ScreenPointToLocalPointInRectangle(
-            rectTransform.parent as RectTransform, eventData.position, eventData.pressEventCamera, out Vector2 mousePosition);
+        if (!isDraggable) return;
 
-        rectTransform.localPosition = mousePosition;
+        if (rectTransform == null)
+        {
+            Debug.LogWarning("Item: rectTransform == null");
+            return;
+        }
+
+        if (rectTransform.parent == null)
+        {
+            Debug.LogWarning($"Item '{gameObject.name}': rectTransform.parent == null");
+            return;
+        }
+
+        RectTransform parentRect = rectTransform.parent as RectTransform;
+        Camera eventCamera = eventData.pressEventCamera;
+
+        if (RectTransformUtility.ScreenPointToLocalPointInRectangle(
+            parentRect, eventData.position, eventCamera, out Vector2 mousePosition))
+        {
+            rectTransform.localPosition = mousePosition;
+        }
     }
 
     public void OnEndDrag(PointerEventData eventData)
@@ -42,11 +59,19 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        SetActiveItem();
-        ImageResizer.SetActiveImage(rectTransform);
+        ImageResizer imageResizer = FindObjectOfType<ImageResizer>();
+
+        if (imageResizer == null)
+        {
+            Debug.LogWarning("ImageResizer nav atrasts!");
+            return;
+        }
+
+        imageResizer.SetActiveImage(rectTransform);
     }
 
-    private void SetActiveItem()
+
+private void SetActiveItem()
     {
         activeItem = this;
     }

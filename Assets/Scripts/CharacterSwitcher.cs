@@ -19,10 +19,7 @@ public class CharacterSwitcher : MonoBehaviour
             characterDropdown.onValueChanged.AddListener(UpdateDescription);
             UpdateDescription(characterDropdown.value);
         }
-        else
-        {
-            Debug.LogError("Dropdown nav piesaistīts! Pārliecinies, ka tas ir pievienots `Inspector`.");
-        }
+   
     }
 
     void UpdateDescription(int index)

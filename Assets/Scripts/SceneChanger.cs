@@ -1,16 +1,16 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement; 
+using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
-    public Dropdown characterDropdown; 
+    public Dropdown characterDropdown;
 
     void Start()
     {
         if (characterDropdown == null)
         {
-            Debug.LogError("Nav DropDown.");
+
             return;
         }
 
@@ -21,11 +21,11 @@ public class SceneChanger : MonoBehaviour
     {
         if (index == 0)
         {
-            SceneManager.LoadScene("SampleScene"); 
+            SceneManager.LoadScene("SampleScene");
         }
         else if (index == 1)
         {
-            SceneManager.LoadScene("SampleScene 1"); 
+            SceneManager.LoadScene("SampleScene 1");
         }
         else
         {

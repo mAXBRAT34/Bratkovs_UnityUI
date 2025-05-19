@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\assets\\scripts\\scenechanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenechanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|c:\\users\\makbr\\desktop\\game\\bratkovs_unityui\\assets\\scripts\\imageresizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\imageresizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\assets\\scripts\\characterswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characterswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\assets\\scripts\\characterresizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characterresizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\assets\\scripts\\exitbuttonscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exitbuttonscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\assets\\scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,12 +35,8 @@
       "RelativeMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenechanger2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|c:\\users\\makbr\\desktop\\game\\bratkovs_unityui\\assets\\scripts\\itemscaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\assets\\scripts\\itemscaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemscaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\assets\\scripts\\scenechanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenechanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\assets\\scripts\\itemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,16 +47,8 @@
       "RelativeMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemblocker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|c:\\users\\makbr\\desktop\\game\\bratkovs_unityui\\assets\\scripts\\imageswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\assets\\scripts\\imageswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\imageswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\assets\\scripts\\imageresizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\imageresizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\assets\\scripts\\game start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,14 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\assets\\scripts\\choosechar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\choosechar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\assets\\scripts\\characterswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characterswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\assets\\scripts\\characterresizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characterresizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BEFA5228-F004-E3F7-56EE-8F482A0BD9EC}|Assembly-CSharp.csproj|C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\assets\\scripts\\characterinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,17 +94,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\Item.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Item.cs",
               "ToolTip": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\Item.cs",
               "RelativeToolTip": "Assets\\Scripts\\Item.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBIAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAD4vw8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T08:40:16.911Z",
               "IsPinned": true,
@@ -108,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "TMP_BaseEditorPanel.cs",
               "DocumentMoniker": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Library\\PackageCache\\com.unity.textmeshpro@3.0.9\\Scripts\\Editor\\TMP_BaseEditorPanel.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.textmeshpro@3.0.9\\Scripts\\Editor\\TMP_BaseEditorPanel.cs",
@@ -121,46 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ItemScaler.cs",
-              "DocumentMoniker": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\ItemScaler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemScaler.cs",
-              "ToolTip": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\ItemScaler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ItemScaler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T21:22:20.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ImageSwitcher.cs",
-              "DocumentMoniker": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\ImageSwitcher.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ImageSwitcher.cs",
-              "ToolTip": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\ImageSwitcher.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ImageSwitcher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T21:20:51.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ChooseChar.cs",
-              "DocumentMoniker": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\ChooseChar.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ChooseChar.cs",
-              "ToolTip": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\ChooseChar.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ChooseChar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T20:25:12.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "DropSlot.cs",
               "DocumentMoniker": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\DropSlot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DropSlot.cs",
@@ -168,12 +133,11 @@
               "RelativeToolTip": "Assets\\Scripts\\DropSlot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T08:40:45.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T08:40:45.653Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "GAME START.cs",
               "DocumentMoniker": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\GAME START.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GAME START.cs",
@@ -181,12 +145,11 @@
               "RelativeToolTip": "Assets\\Scripts\\GAME START.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T09:12:00.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T09:12:00.35Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "ItemBlocker.cs",
               "DocumentMoniker": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\ItemBlocker.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ItemBlocker.cs",
@@ -194,12 +157,11 @@
               "RelativeToolTip": "Assets\\Scripts\\ItemBlocker.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T17:25:41.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T17:25:41.048Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "ItemManager.cs",
               "DocumentMoniker": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\ItemManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ItemManager.cs",
@@ -207,25 +169,24 @@
               "RelativeToolTip": "Assets\\Scripts\\ItemManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T19:06:52.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T19:06:52.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "SceneChanger.cs",
               "DocumentMoniker": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\SceneChanger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneChanger.cs",
               "ToolTip": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\SceneChanger.cs",
               "RelativeToolTip": "Assets\\Scripts\\SceneChanger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T19:16:33.425Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "SceneChanger2.cs",
               "DocumentMoniker": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\SceneChanger2.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneChanger2.cs",
@@ -233,12 +194,11 @@
               "RelativeToolTip": "Assets\\Scripts\\SceneChanger2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T19:26:55.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T19:26:55.129Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "SceneLoader.cs",
               "DocumentMoniker": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\SceneLoader.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneLoader.cs",
@@ -246,38 +206,98 @@
               "RelativeToolTip": "Assets\\Scripts\\SceneLoader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T20:58:29.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T20:58:29.954Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "CharacterSwitcher.cs",
               "DocumentMoniker": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\CharacterSwitcher.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterSwitcher.cs",
               "ToolTip": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\CharacterSwitcher.cs",
               "RelativeToolTip": "Assets\\Scripts\\CharacterSwitcher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T17:49:04.225Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 1,
+              "Title": "ImageResizer.cs",
+              "DocumentMoniker": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\ImageResizer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ImageResizer.cs",
+              "ToolTip": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\ImageResizer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ImageResizer.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAWwBIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T09:00:41.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CharacterResizer.cs",
               "DocumentMoniker": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\CharacterResizer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterResizer.cs",
               "ToolTip": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\CharacterResizer.cs",
               "RelativeToolTip": "Assets\\Scripts\\CharacterResizer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAABeAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBAAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T20:26:50.904Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExitButtonScript.cs",
+              "DocumentMoniker": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\ExitButtonScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ExitButtonScript.cs",
+              "ToolTip": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\ExitButtonScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ExitButtonScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T09:02:34.395Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "ChooseChar.cs",
+              "DocumentMoniker": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\ChooseChar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ChooseChar.cs",
+              "ToolTip": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\ChooseChar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ChooseChar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T20:25:12.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ImageSwitcher.cs",
+              "DocumentMoniker": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\ImageSwitcher.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ImageSwitcher.cs",
+              "ToolTip": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\ImageSwitcher.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ImageSwitcher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:20:51.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ItemScaler.cs",
+              "DocumentMoniker": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\ItemScaler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemScaler.cs",
+              "ToolTip": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\ItemScaler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ItemScaler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:22:20.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "CharacterInfo.cs",
               "DocumentMoniker": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\CharacterInfo.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterInfo.cs",
@@ -285,12 +305,11 @@
               "RelativeToolTip": "Assets\\Scripts\\CharacterInfo.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwAYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T18:53:11.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T18:53:11.783Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "TMP_FontAssetEditor.cs",
               "DocumentMoniker": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Library\\PackageCache\\com.unity.textmeshpro@3.0.9\\Scripts\\Editor\\TMP_FontAssetEditor.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.textmeshpro@3.0.9\\Scripts\\Editor\\TMP_FontAssetEditor.cs",
@@ -298,12 +317,11 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.textmeshpro@3.0.9\\Scripts\\Editor\\TMP_FontAssetEditor.cs",
               "ViewState": "AgIAALAAAAAAAAAAAAAUwM0AAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T21:14:08.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T21:14:08.962Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "TMP_FontAsset.cs",
               "DocumentMoniker": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Runtime\\TMP_FontAsset.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Runtime\\TMP_FontAsset.cs",
@@ -315,20 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ImageResizer.cs",
-              "DocumentMoniker": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\ImageResizer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ImageResizer.cs",
-              "ToolTip": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\Scripts\\ImageResizer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ImageResizer.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAcwFAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T09:00:41.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "LiberationSans - OFL.txt",
               "DocumentMoniker": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Assets\\TextMesh Pro\\Fonts\\LiberationSans - OFL.txt",
               "RelativeDocumentMoniker": "Assets\\TextMesh Pro\\Fonts\\LiberationSans - OFL.txt",
@@ -340,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "TMPro_FontAssetCreatorWindow.cs",
               "DocumentMoniker": "C:\\Users\\makbr\\Desktop\\Game\\Bratkovs_UnityUI\\Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Editor\\TMPro_FontAssetCreatorWindow.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.textmeshpro@3.0.6\\Scripts\\Editor\\TMPro_FontAssetCreatorWindow.cs",

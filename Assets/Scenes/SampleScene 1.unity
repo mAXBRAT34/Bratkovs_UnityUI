@@ -416,6 +416,7 @@ GameObject:
   - component: {fileID: 169778472}
   - component: {fileID: 169778471}
   - component: {fileID: 169778470}
+  - component: {fileID: 169778473}
   m_Layer: 5
   m_Name: Pants (11)
   m_TagString: Untagged
@@ -454,6 +455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35718ecc65f1d445845f86c23b8170b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraggable: 1
 --- !u!114 &169778471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -492,6 +494,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 169778468}
   m_CullTransparentMesh: 1
+--- !u!225 &169778473
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169778468}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &211559741
 GameObject:
   m_ObjectHideFlags: 0
@@ -1689,6 +1703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35718ecc65f1d445845f86c23b8170b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraggable: 1
 --- !u!114 &404613807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2078,6 +2093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35718ecc65f1d445845f86c23b8170b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraggable: 1
 --- !u!114 &427578418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2359,7 +2375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7f1551d1a7bd0243bb2d6d65c37fb1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterDropdown: {fileID: 0}
+  characterDropdown: {fileID: 1247153577}
   characterImage: {fileID: 719474093}
   robloxSprites:
   - {fileID: 21300000, guid: d3e6e6c6b4a60c9478737a92c1edc313, type: 3}
@@ -2371,7 +2387,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 512346581}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d88cc01b6f96a52418baa87425e4b2da, type: 3}
   m_Name: 
@@ -2612,6 +2628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35718ecc65f1d445845f86c23b8170b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraggable: 1
 --- !u!114 &521978219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3288,6 +3305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35718ecc65f1d445845f86c23b8170b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraggable: 1
 --- !u!114 &649830805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3472,6 +3490,7 @@ GameObject:
   - component: {fileID: 667930332}
   - component: {fileID: 667930331}
   - component: {fileID: 667930330}
+  - component: {fileID: 667930333}
   m_Layer: 5
   m_Name: Hats (9)
   m_TagString: Untagged
@@ -3510,6 +3529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35718ecc65f1d445845f86c23b8170b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraggable: 1
 --- !u!114 &667930331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3548,6 +3568,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 667930328}
   m_CullTransparentMesh: 1
+--- !u!225 &667930333
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667930328}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &719474091
 GameObject:
   m_ObjectHideFlags: 0
@@ -4036,6 +4068,7 @@ GameObject:
   - component: {fileID: 797729882}
   - component: {fileID: 797729881}
   - component: {fileID: 797729884}
+  - component: {fileID: 797729885}
   m_Layer: 5
   m_Name: Shoes (13)
   m_TagString: Untagged
@@ -4074,6 +4107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35718ecc65f1d445845f86c23b8170b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraggable: 1
 --- !u!114 &797729882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4126,6 +4160,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemImage: {fileID: 0}
   newImage: {fileID: 21300000, guid: c21e39313bade91499b86aa2f38aba06, type: 3}
+--- !u!225 &797729885
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797729879}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &817247386
 GameObject:
   m_ObjectHideFlags: 0
@@ -4711,6 +4757,7 @@ GameObject:
   - component: {fileID: 913127006}
   - component: {fileID: 913127005}
   - component: {fileID: 913127004}
+  - component: {fileID: 913127007}
   m_Layer: 5
   m_Name: Hats (8)
   m_TagString: Untagged
@@ -4749,6 +4796,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35718ecc65f1d445845f86c23b8170b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraggable: 1
 --- !u!114 &913127005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4787,6 +4835,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 913127002}
   m_CullTransparentMesh: 1
+--- !u!225 &913127007
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913127002}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &923579902
 GameObject:
   m_ObjectHideFlags: 0
@@ -5392,6 +5452,7 @@ GameObject:
   - component: {fileID: 1016732838}
   - component: {fileID: 1016732837}
   - component: {fileID: 1016732836}
+  - component: {fileID: 1016732839}
   m_Layer: 5
   m_Name: Pants (10)
   m_TagString: Untagged
@@ -5430,6 +5491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35718ecc65f1d445845f86c23b8170b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraggable: 1
 --- !u!114 &1016732837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5468,6 +5530,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016732834}
   m_CullTransparentMesh: 1
+--- !u!225 &1016732839
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016732834}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1024141616
 GameObject:
   m_ObjectHideFlags: 0
@@ -5594,6 +5668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35718ecc65f1d445845f86c23b8170b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraggable: 1
 --- !u!114 &1039050452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5656,14 +5731,7 @@ GameObject:
   - component: {fileID: 1043922531}
   - component: {fileID: 1043922530}
   - component: {fileID: 1043922529}
-  - component: {fileID: 1043922533}
-  - component: {fileID: 1043922535}
-  - component: {fileID: 1043922534}
-  - component: {fileID: 1043922537}
-  - component: {fileID: 1043922536}
-  - component: {fileID: 1043922539}
-  - component: {fileID: 1043922538}
-  - component: {fileID: 1043922540}
+  - component: {fileID: 1043922541}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -5812,116 +5880,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1043922533
-MonoBehaviour:
+--- !u!225 &1043922541
+CanvasGroup:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043922528}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d71e2bf544274824ca3decab7c7d040e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameInput: {fileID: 0}
-  birthYearInput: {fileID: 0}
-  infoText: {fileID: 0}
---- !u!114 &1043922534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043922528}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b35718ecc65f1d445845f86c23b8170b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1043922535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043922528}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b35718ecc65f1d445845f86c23b8170b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1043922536
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043922528}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d18a0110bbf296418a16d7bce037237, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImage: {fileID: 0}
-  newImage: {fileID: 0}
---- !u!114 &1043922537
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043922528}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d18a0110bbf296418a16d7bce037237, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemImage: {fileID: 0}
-  newImage: {fileID: 0}
---- !u!114 &1043922538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043922528}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f9b41b7bfc53084ea10fe96e0fd7a28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  widthSlider: {fileID: 0}
-  heightSlider: {fileID: 0}
---- !u!114 &1043922539
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043922528}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f9b41b7bfc53084ea10fe96e0fd7a28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  widthSlider: {fileID: 0}
-  heightSlider: {fileID: 0}
---- !u!114 &1043922540
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043922528}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f994c0b9ba610b408877521a31ec4c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterTransform: {fileID: 0}
-  heightSlider: {fileID: 0}
-  widthSlider: {fileID: 0}
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1047533969
 GameObject:
   m_ObjectHideFlags: 0
@@ -6447,6 +6417,7 @@ GameObject:
   - component: {fileID: 1140861116}
   - component: {fileID: 1140861115}
   - component: {fileID: 1140861114}
+  - component: {fileID: 1140861117}
   m_Layer: 5
   m_Name: Pants (9)
   m_TagString: Untagged
@@ -6485,6 +6456,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35718ecc65f1d445845f86c23b8170b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraggable: 1
 --- !u!114 &1140861115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6523,6 +6495,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1140861112}
   m_CullTransparentMesh: 1
+--- !u!225 &1140861117
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140861112}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1150678036
 GameObject:
   m_ObjectHideFlags: 0
@@ -6782,6 +6766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35718ecc65f1d445845f86c23b8170b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraggable: 1
 --- !u!114 &1182561632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7215,7 +7200,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e98571732e77e634399ab5e66591c2bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterDropdown: {fileID: 0}
 --- !u!1 &1251141223
 GameObject:
   m_ObjectHideFlags: 0
@@ -7266,6 +7250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35718ecc65f1d445845f86c23b8170b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraggable: 1
 --- !u!114 &1251141226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7800,6 +7785,7 @@ GameObject:
   - component: {fileID: 1294245843}
   - component: {fileID: 1294245842}
   - component: {fileID: 1294245845}
+  - component: {fileID: 1294245846}
   m_Layer: 5
   m_Name: Shoes (11)
   m_TagString: Untagged
@@ -7838,6 +7824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35718ecc65f1d445845f86c23b8170b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraggable: 1
 --- !u!114 &1294245843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7890,6 +7877,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemImage: {fileID: 0}
   newImage: {fileID: 21300000, guid: 3f78371672fed8c459b65310bcb8e5e6, type: 3}
+--- !u!225 &1294245846
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294245840}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1295600037
 GameObject:
   m_ObjectHideFlags: 0
@@ -9171,6 +9170,7 @@ GameObject:
   - component: {fileID: 1548777243}
   - component: {fileID: 1548777242}
   - component: {fileID: 1548777245}
+  - component: {fileID: 1548777246}
   m_Layer: 5
   m_Name: Shoes (12)
   m_TagString: Untagged
@@ -9209,6 +9209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35718ecc65f1d445845f86c23b8170b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraggable: 1
 --- !u!114 &1548777243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9261,6 +9262,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemImage: {fileID: 0}
   newImage: {fileID: 21300000, guid: 28f73e5e3d9a7cf489207cef5340d52e, type: 3}
+--- !u!225 &1548777246
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548777240}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1553546015
 GameObject:
   m_ObjectHideFlags: 0
@@ -9557,6 +9570,7 @@ GameObject:
   - component: {fileID: 1618392492}
   - component: {fileID: 1618392491}
   - component: {fileID: 1618392490}
+  - component: {fileID: 1618392493}
   m_Layer: 5
   m_Name: Hats (10)
   m_TagString: Untagged
@@ -9595,6 +9609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35718ecc65f1d445845f86c23b8170b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraggable: 1
 --- !u!114 &1618392491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9633,6 +9648,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1618392488}
   m_CullTransparentMesh: 1
+--- !u!225 &1618392493
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618392488}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1623014177
 GameObject:
   m_ObjectHideFlags: 0
@@ -9799,6 +9826,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35718ecc65f1d445845f86c23b8170b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraggable: 1
 --- !u!114 &1664815272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9861,6 +9889,7 @@ GameObject:
   - component: {fileID: 1672303778}
   - component: {fileID: 1672303777}
   - component: {fileID: 1672303776}
+  - component: {fileID: 1672303779}
   m_Layer: 5
   m_Name: Pants (12)
   m_TagString: Untagged
@@ -9899,6 +9928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35718ecc65f1d445845f86c23b8170b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraggable: 1
 --- !u!114 &1672303777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9937,6 +9967,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1672303774}
   m_CullTransparentMesh: 1
+--- !u!225 &1672303779
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672303774}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1728217972
 GameObject:
   m_ObjectHideFlags: 0
@@ -11090,9 +11132,9 @@ GameObject:
   - component: {fileID: 1836318909}
   - component: {fileID: 1836318914}
   - component: {fileID: 1836318913}
-  - component: {fileID: 1836318911}
   - component: {fileID: 1836318910}
   - component: {fileID: 1836318915}
+  - component: {fileID: 1836318916}
   m_Layer: 5
   m_Name: Hats (4)
   m_TagString: Untagged
@@ -11131,18 +11173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35718ecc65f1d445845f86c23b8170b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1836318911
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1836318908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7ff2e10d96a5b84595bfb48d828d5e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  isDraggable: 1
 --- !u!114 &1836318913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11195,6 +11226,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   widthSlider: {fileID: 214358319}
   heightSlider: {fileID: 1739965588}
+--- !u!225 &1836318916
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836318908}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1853323115
 GameObject:
   m_ObjectHideFlags: 0
@@ -11544,6 +11587,7 @@ GameObject:
   - component: {fileID: 1886941225}
   - component: {fileID: 1886941224}
   - component: {fileID: 1886941227}
+  - component: {fileID: 1886941228}
   m_Layer: 5
   m_Name: Shoes (10)
   m_TagString: Untagged
@@ -11582,6 +11626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35718ecc65f1d445845f86c23b8170b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDraggable: 1
 --- !u!114 &1886941225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11634,6 +11679,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemImage: {fileID: 1886941225}
   newImage: {fileID: 21300000, guid: e311cda3ec42f9d4b825d2d311da6667, type: 3}
+--- !u!225 &1886941228
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886941222}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1917387063
 GameObject:
   m_ObjectHideFlags: 0

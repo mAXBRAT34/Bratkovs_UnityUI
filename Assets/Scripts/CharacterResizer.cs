@@ -1,20 +1,21 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class CharacterResizer : MonoBehaviour
 {
-    public RectTransform characterTransform; 
-    public Slider heightSlider; 
-    public Slider widthSlider;  
+    public RectTransform characterTransform;
+    public Slider heightSlider;
+    public Slider widthSlider;
 
     private float originalWidth;
     private float originalHeight;
 
     void Start()
     {
+        // ✅ Проверка на `null`
         if (characterTransform == null)
         {
-            Debug.LogError("Nav `characterTransform`!");
+            Debug.Log("");
             return;
         }
 
@@ -24,10 +25,10 @@ public class CharacterResizer : MonoBehaviour
         heightSlider.onValueChanged.AddListener(UpdateHeight);
         widthSlider.onValueChanged.AddListener(UpdateWidth);
 
-        heightSlider.minValue = 1.0f;
+        heightSlider.minValue = 0.5f;
         heightSlider.maxValue = 1.5f;
 
-        widthSlider.minValue = 1.0f;
+        widthSlider.minValue = 0.5f;
         widthSlider.maxValue = 1.5f;
 
         heightSlider.value = 1.0f;
@@ -36,13 +37,17 @@ public class CharacterResizer : MonoBehaviour
 
     void UpdateHeight(float value)
     {
+        if (characterTransform == null) return;
+
         float newHeight = originalHeight * value;
-        characterTransform.sizeDelta = new Vector2(characterTransform.sizeDelta.x, newHeight); 
+        characterTransform.sizeDelta = new Vector2(characterTransform.sizeDelta.x, newHeight);
     }
 
     void UpdateWidth(float value)
     {
+        if (characterTransform == null) return;
+
         float newWidth = originalWidth * value;
-        characterTransform.sizeDelta = new Vector2(newWidth, characterTransform.sizeDelta.y); 
+        characterTransform.sizeDelta = new Vector2(newWidth, characterTransform.sizeDelta.y);
     }
 }

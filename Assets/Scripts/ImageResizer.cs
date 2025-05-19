@@ -1,74 +1,93 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using System.Collections.Generic;
 
 public class ImageResizer : MonoBehaviour
 {
     public Slider widthSlider;
     public Slider heightSlider;
 
-    private static RectTransform activeImageRectTransform;
-    private static Vector2 originalSize;
+    private RectTransform activeImageRectTransform;
+    private Vector2 originalSize;
+
+    // ✅ Храним текущие размеры предметов
+    private Dictionary<RectTransform, Vector2> objectSizes = new Dictionary<RectTransform, Vector2>();
 
     void Start()
     {
+        if (widthSlider == null || heightSlider == null)
+        {
+            Debug.Log("");
+            return;
+        }
+
         widthSlider.onValueChanged.AddListener(UpdateWidth);
         heightSlider.onValueChanged.AddListener(UpdateHeight);
 
         widthSlider.minValue = 0.5f;
-        widthSlider.maxValue = 1.5f;
+        widthSlider.maxValue = 2.0f;
 
         heightSlider.minValue = 0.5f;
-        heightSlider.maxValue = 1.5f;
-
-        widthSlider.value = 1.0f;
-        heightSlider.value = 1.0f;
+        heightSlider.maxValue = 2.0f;
 
         IgnoreSliderSelection(widthSlider);
         IgnoreSliderSelection(heightSlider);
     }
 
-    public static void SetActiveImage(RectTransform newImage)
+    public void SetActiveImage(RectTransform newImage)
     {
         if (newImage == null)
         {
-            Debug.LogWarning("IestatītAktīvoAttēlu: Mēģinājums iestatīt `null` objektu!");
+            Debug.Log("");
             return;
         }
 
         activeImageRectTransform = newImage;
-        originalSize = activeImageRectTransform.sizeDelta;
+
+        // ✅ Если объект уже изменялся – загружаем его сохранённые размеры
+        if (objectSizes.ContainsKey(newImage))
+        {
+            activeImageRectTransform.sizeDelta = objectSizes[newImage];
+        }
+        else
+        {
+            originalSize = newImage.sizeDelta;
+            objectSizes[newImage] = originalSize;
+        }
+
+        // ✅ `Slider` показывает текущий масштаб предмета
+        widthSlider.value = activeImageRectTransform.sizeDelta.x / originalSize.x;
+        heightSlider.value = activeImageRectTransform.sizeDelta.y / originalSize.y;
     }
 
     void UpdateWidth(float value)
     {
-        if (activeImageRectTransform == null)
-        {
-            Debug.LogWarning("AtjauninātPlatumu: `activeImageRectTransform` nav iestatīts!");
-            return;
-        }
+        if (activeImageRectTransform == null) return;
 
-        float newWidth = Mathf.Clamp(originalSize.x * value, 50f, 1000f);
+        float newWidth = originalSize.x * value;
         activeImageRectTransform.sizeDelta = new Vector2(newWidth, activeImageRectTransform.sizeDelta.y);
+
+        // ✅ Сохраняем текущий размер предмета
+        objectSizes[activeImageRectTransform] = activeImageRectTransform.sizeDelta;
     }
 
     void UpdateHeight(float value)
     {
-        if (activeImageRectTransform == null)
-        {
-            Debug.LogWarning("AtjauninātAugstumu: `activeImageRectTransform` nav iestatīts!");
-            return;
-        }
+        if (activeImageRectTransform == null) return;
 
-        float newHeight = Mathf.Clamp(originalSize.y * value, 50f, 1000f);
+        float newHeight = originalSize.y * value;
         activeImageRectTransform.sizeDelta = new Vector2(activeImageRectTransform.sizeDelta.x, newHeight);
+
+        // ✅ Сохраняем текущий размер предмета
+        objectSizes[activeImageRectTransform] = activeImageRectTransform.sizeDelta;
     }
 
     void IgnoreSliderSelection(Slider slider)
     {
         if (slider == null)
         {
-            Debug.LogWarning("IgnorētSlīdņaIzvēli: `slider` nav norādīts!");
+            Debug.Log("");
             return;
         }
 

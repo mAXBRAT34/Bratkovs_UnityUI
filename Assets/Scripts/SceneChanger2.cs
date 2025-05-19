@@ -4,17 +4,10 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger2 : MonoBehaviour
 {
-    public Dropdown characterDropdown;
 
     void Start()
     {
-        if (characterDropdown == null)
-        {
-            Debug.LogError("Nav DropDown");
-            return;
-        }
 
-        characterDropdown.onValueChanged.AddListener(ChangeScene);
     }
 
     public void ChangeScene(int index)
